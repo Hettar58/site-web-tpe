@@ -1,0 +1,143 @@
+<html>
+<meta http-equiv="content-type" content="text/html" charset="utf-8">
+
+<head>
+    <link href="style.css" rel="stylesheet" media="all" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img src="images/banner4.jpg">
+        <ul>
+            <li class="dropdown">
+                <a href="index.html" class="dropbtn"> Introduction </a>
+            </li>
+
+            <li class="dropdown">
+                <a href="Grand_1.html" class="dropbtn"> I: L'oreille </a>
+                <div class="contenu_dropdown">
+                    <a href="Grand_1.html#petit_a"> a) La composition d'une oreille </a>
+                    <a href="Grand_1.html#petit_b"> b) La perception du son des oreilles au cerveau </a>
+                    <a href="Grand_1.html#petit_c"> c) Les troubles de l'oreille </a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="Grand_2.html" class="dropbtn"> II: Le son </a>
+                <div class="contenu_dropdown">
+                    <a href="Grand_2.html#petit_a"> a) Les caractéristiques du son </a>
+                    <a href="Grand_2.html#petit_b"> b) La propagation du son dans un milieu </a>
+                    <a href="Grand_2.html#petit_c"> c) La différence entre un bruit et un son</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="Grand_3.html" class="dropbtn"> III: Les techniques d'acoustique </a>
+                <div class="contenu_dropdown">
+                    <a href="Grand_3.html#petit_a"> a) L'isolation phonique passive</a>
+                    <a href="Grand_3.html#petit_b"> b) La résistance et les différents matériaux face au son</a>
+                    <a href="Grand_3.html#petit_c"> c) Les techniques d'isolation passives et actives</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="experience.html" class="dropbtn"> Expérience </a>
+            </li>
+
+            <li class="dropdown">
+                <a href="conclusion.html" class="dropbtn"> Conclusion </a>
+            </li>
+
+            <li style="float:right; border-right:none"><a href="Lexique & Sources.html"> Lexique / Sources </a></li>
+        </ul>
+        <br/>
+    </header>
+
+    <div class="texte">
+        <h1 id="Haut"> III: Notions d'acoustique</h1>
+
+        <h2 id="petit_a"> L'isolation phonique d'une pièce</h2>
+        Dans une <a href="lexique & Sources.html#chambre_acoide"><span class="highlight">chambre acoide</span></a>, on ne peut pas tenir plus de 45 min car elle absorbe 99% du son.
+        Il est très dur de garder l'équlibre. Selon son créateur Steven orfield, On peut entendre les bruits de notre organisme (l'air qui circule dans nos poumons, les battements de 
+        coeur, les bruits de nos articulations). La chambre acoïde peut être utilisée pour mesurer précisément la quantité de son émise par un objet. Par exemple dans le cas de la 
+        recherche et développement en industrie, on peut s'en servir pour voir si un produit est homologuable en fonction de la quantité de son qu'il émet.
+        De la chambre acoïde à un studio d'enregistrement, en fonction de l'utilisation de la salle, on peut avoir recours à différentes méthodes d'isolation.
+        Le tableau ci-dessous nous montre les différents moyens pour absorber certaines classes de fréquences.
+        <table>
+            <tr>
+                <th>Schéma</th>
+                <th>Descritption</th>
+                <th>Fréquences absorbées</th>
+            </tr>
+            <tr>
+                <td><img src="Images/resonateur_helmotz.jpg" style="width:320px; height: 228px;" /></td>
+                <td>le résonateur de Helmotz peut absorber les médiums. Ils sont constitués de cavités de diférente taille pour absorber une plus grande base de fréquence. </td>
+                <td>Absorbe entre 300 Hz et 1 kHz</td>
+            </tr>
+            <tr>
+                <td><img src="Images/effet_frottement.jpg" style="width: 119px; height: 202px;" /></td>
+                <td>Pour les aigus on peut utiliser l'efet de frottement entre le son et des fibres avec par exemple de la laine de verre. Plus les fibres sont poreuses et plus il y a de surface de contact, plus l'absorption des aigus sera efficace.</td>
+                <td>absorbe les fréquences de plus de 1 kHz</td>
+            </tr>
+            <tr>
+                <td><img src="Images/effet_panneau.jpg" style="width: 119px; height:213px;" /></td>
+                <td>Pour les sons graves, on se servira de l'effet de panneau: des plaques (hachuré en vert sur le schéma) généralement en bois ou en platre sont placées à une certaine distance de la paroi. Le panneau et l'air situé derrière celui-ci entrent en vibration.</td>
+                <td>absorbe les fréquences en-dessous de 300 Hz</td>
+            </tr>
+        </table>
+
+        <br/>
+        Ensuite on peut définir pour cette salle l'aire équivalente d'absorption A en m² à l'aide de la formule suivante: 
+        A=&Sigma; &alpha;<SUB>i</SUB>s<SUB>i</SUB> avec &alpha; coefficient d'absorption alpha sabine qui varie en fonction du matériau et de la fréquence, s qui est la surface en m<SUP>2</SUP> des surfaces de la salle c'est a dire le mobilier, les usagers, plus généralement tout ce qu'elle contient.
+        <br/><img src="Images/tableau_tr_optimal_salle.jpg" style="width:493px; height:451px; display: block; margin: auto;" />
+        <div class="legende">
+            Le tableau ci-dessus représente les temps de réverbération optimaux en fonction du volume de la salle ainsi que de son utilisation.
+        </div> 
+
+        <h2 id="petit_b"> La résonance et les différents matéiaux face au son</h2>
+        Les matériaux possèdent tous une réaction différente face à une onde sonore. Certains absorbent plus qu'ils ne renvoient et inversement.
+        <div class="bloc">
+            <img src="Images/schéma_comportement_paroi_acoustique.png" style="margin:10px; width: 600px; height: 400px;">
+            <br/>
+            <br/>
+            à partir du schéma suivant, on peut voir : une onde sonore incidente P avec une intensité en dB. Cette onde est simultanément réfléchie (R), absorbée (A) et transmise (T).
+            On part du principe que P = 1.
+            On a donc 1 = &alpha; + &tau; + &rho; avec &alpha; coefficient d'absorption acoustique, &tau; coefficient de transmission acoustique et &rho; coefficient de réflexion 
+            acoustique.
+            <br/> &alpha; = énergie absorbée / énergie incidente
+            <br/>&tau; = énergie transmise / énergie incidente
+            <br/>&rho; = énergie réfléchie / énergie incidente
+        </div>
+        à partir des caractéristiques des matériaux, on peut trouver la résonance d'une pièce.
+        La résonance ou réverbération, est la persistance d'un bruit dans un local après arrêt de la source. Plus précisément, c'est le temps mis par le son pour décroitre de 60 décibels 
+        dans la salle après arrêt de la source.
+        Si la différence de temps entre le trajet direct de l'onde (source &rarr; réception) et le trajet dérivé de celle ci (source &rarr; mur &rarr; réception) dépasse 0.05 seconde, le cerveau 
+        percevra deux sons distincts.
+        On peut calculer le temps de résonance d'une pièce à l'aide de la formule de sabine: TR = O.16x<SUP>V</SUP>&frasl;<SUB>A</SUB> .
+        TR correspond au temps de réverbération, V au volume de la pièce en m<SUP>3</SUP> et A à la surface d'absorbtion de la pièce en m² soit A=&Sigma; &alpha;<SUB>i</SUB>s<SUB>i</SUB>.
+
+        <h2 id="petit_c"> Les techniques d'isolement passives et actives </h2>
+        Il y a un temps de réverbération optimal en fonction de l'utilisation d'une salle et de la musique jouée. Il y a deux techniques d'isolement reposant sur deux principes différents: la méthode active permet une correction en temps réel du temps de réverbération.Les murs de la salle ont un coeefficient d'absorption égal à 1 donc elles ne réverbèrent rien. le son est capté par des micros puis renvoyé à l'aide de hauts parleurs avec un léger délai que peut faire varier l'ingénieur du son en fonction dece qui est joué. Cette méthode est réservée aux grandes salles de spectacles car elle est onéreuse. La méthode passive est plus répandue car moins chère. elle repose sur l'optimisation de la salle. Par exemple des panneaux sur les murs pour absorber les graves (cf schéma et formule), des dalles avec un coefficient d'absorption proche de 0 au dessus de la scène pour renvoyer le son émis en direction des spectateurs
+    </div>
+
+    <br/>
+    <div class="bloc">
+        <a href="Grand_2.html">
+            <p>Précédent</p>
+        </a>
+        <a href="#Haut">
+            <p>Haut de la page</p>
+        </a>
+        <a href="experience.html">
+            <p>L'expérience </p>
+        </a>
+    </div>
+    <footer>
+        <h3><a href="about.html"> A propos du site </a><h3>
+        <h4><a href="about.html"> A propos du site </a></h4>
+        <h3>Site adapté pour résolution 720p (1280*720)</h3>
+        <h4>Site adapté pour résolution 1080p (1920 * 1080)</h4>
+    </footer>
+</body>
+
+</html>
